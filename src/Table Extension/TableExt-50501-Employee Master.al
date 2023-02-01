@@ -14,7 +14,18 @@ tableextension 50501 "Employee Master_ext" extends Employee
             end;
         }
     }
+    Keys
+    {
+        // Key(Key6; "Job Title HR")
+        // {
 
+        // }
+        // key(Key7; "Job Title")
+        // {
+
+        // }
+    }
+    
     var
         myInt: Integer;
 }

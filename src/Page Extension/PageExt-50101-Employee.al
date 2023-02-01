@@ -4,7 +4,7 @@ pageextension 50501 Employee_ext extends "Employee Card"
     {
         modify("Job Title")
         {
-            Visible = false;
+            Editable = false;
         }
         addafter("Job Title")
         {
@@ -19,7 +19,7 @@ pageextension 50501 Employee_ext extends "Employee Card"
     {
         // Add changes to page actions here
     }
-
+    
     var
         myInt: Integer;
 }

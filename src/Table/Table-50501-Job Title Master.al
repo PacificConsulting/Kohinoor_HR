@@ -17,7 +17,7 @@ table 50501 "Job Title Master"
 
     keys
     {
-        key(Key1; "Job Code")
+        key(Key1; "Job Code", Description)
         {
             Clustered = true;
         }
